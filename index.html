@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Bingo</h1>
+    <table id="bingo-board">
+        <tr>
+            <th>B</th>
+            <th>I</th>
+            <th>N</th>
+            <th>G</th>
+            <th>O</th>
+        </tr>
+        <tr id="row1"></tr>
+        <tr id="row2"></tr>
+        <tr id="row3"></tr>
+        <tr id="row4"></tr>
+        <tr id="row5"></tr>
+    </table>
+    <button onclick="generateBoard()">Gerar Cartela</button>
+    <button onclick="callNumber()">Chamar Número</button>
+    <div id="called-number"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
